@@ -33,8 +33,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        instance = this;
+
         counter = findViewById(R.id.counter);
+        instance = this;
 
         init();
 
@@ -59,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.shop).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.shop).setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View _v) {
                 startActivity(new Intent(MainActivity.this, ShopActivity.class));

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -14,6 +15,7 @@ import java.util.Arrays;
 
 import pl.chlebek.rpisanka.Data;
 import pl.chlebek.rpisanka.R;
+import pl.chlebek.rpisanka.Utils;
 
 public class InventoryActivity extends AppCompatActivity {
 
@@ -24,7 +26,7 @@ public class InventoryActivity extends AppCompatActivity {
     private ArrayList<String> inventory;
 
     private void init() {
-        inventory = new ArrayList<>(Arrays.asList(_inventory.read().split(",")));
+        inventory = new ArrayList<>(Arrays.asList(Utils.split(_inventory.read())));
 
         try {
             eggs = Integer.parseInt(_eggs.read());
@@ -49,6 +51,12 @@ public class InventoryActivity extends AppCompatActivity {
 
         // Add contents
         for(String item : inventory) {
+            ImageView iv = new ImageView(this);
+//            if(item.equals("chest1"))
+            iv.setImageResource(R.drawable.chest1);
+
+            ll.addView(iv);
+
             TextView tv = new TextView(this);
             tv.setText(item);
             ll.addView(tv);

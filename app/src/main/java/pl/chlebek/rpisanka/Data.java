@@ -30,7 +30,7 @@ public class Data {
         contents = data;
 
         try {
-            FileOutputStream outputStream = MainActivity.getInstance().openFileOutput(name, MainActivity.getInstance().MODE_PRIVATE);
+            FileOutputStream outputStream = MainActivity.getInstance().openFileOutput(name, MainActivity.MODE_PRIVATE);
             outputStream.write(data.getBytes());
             outputStream.close();
         } catch(Exception e) {}

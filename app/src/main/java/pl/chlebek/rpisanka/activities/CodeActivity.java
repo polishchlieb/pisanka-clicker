@@ -23,7 +23,7 @@ public class CodeActivity extends AppCompatActivity {
     private ArrayList<String> used;
 
     private void init() {
-        used = new ArrayList<>(Arrays.asList(codes.read().split(",")));
+        used = new ArrayList<>(Arrays.asList(Utils.split(codes.read())));
 
         try {
             count = Integer.parseInt(eggs.read());

@@ -21,7 +21,7 @@ public class ShopActivity extends AppCompatActivity {
     private ArrayList<String> inventory;
 
     private void init() {
-        inventory = new ArrayList<>(Arrays.asList(_inventory.read().split(",")));
+        inventory = new ArrayList<>(Arrays.asList(Utils.split(_inventory.read())));
 
         try {
             eggs = Integer.parseInt(_eggs.read());
