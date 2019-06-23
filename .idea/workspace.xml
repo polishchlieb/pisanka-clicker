@@ -5,6 +5,10 @@
       <config />
     </shared>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/ShopActivity.java" line="70" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/CodeActivity.java" line="66" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="204496b2-9827-4417-b723-7affd0275eb8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -15,12 +19,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/CodeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/CodeActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/InventoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/InventoryActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/ShopActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/ShopActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_inventory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_inventory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,44 +45,45 @@
     <session id="1908837390">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Translations Editor" value="1" />
-          <entry key="class" value="1" />
-          <entry key="java" value="26" />
-          <entry key="xml" value="17" />
+          <entry key="class" value="2" />
+          <entry key="java" value="38" />
+          <entry key="xml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="" value="1" />
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="26" />
-          <entry key="XML" value="17" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="38" />
+          <entry key="XML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2204" />
-          <entry key="txt" value="42" />
-          <entry key="xml" value="39" />
+          <entry key="java" value="4196" />
+          <entry key="txt" value="85" />
+          <entry key="xml" value="149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2204" />
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="XML" value="39" />
+          <entry key="JAVA" value="4196" />
+          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="XML" value="149" />
         </counts>
       </usages-collector>
     </session>
@@ -86,14 +93,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="414">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#513#514#0" expanded="true" />
                 <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#1544#1748#0" expanded="true" />
-                <element signature="e#1747#1748#0" expanded="true" />
+                <element signature="e#1040#1230#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1285#1484#0" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/ShopActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="70" column="61" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#992#1491#0" expanded="true" />
+                <element signature="e#1490#1491#0" expanded="true" />
+                <element signature="e#1556#1747#0" expanded="true" />
+                <element signature="e#1746#1747#0" expanded="true" />
+                <element signature="e#2235#2440#0" expanded="true" />
+                <element signature="e#2439#2440#0" expanded="true" />
+                <element signature="e#2509#2670#0" expanded="true" />
+                <element signature="e#2669#2670#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="369">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#286#287#0" expanded="true" />
@@ -113,13 +142,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/InventoryActivity.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="69">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/CodeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1019#2607#0" expanded="true" />
+                <element signature="e#2606#2607#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,6 +190,7 @@
       <find>count</find>
       <find>join</find>
       <find>split</find>
+      <find>contents</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -153,24 +205,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/CodeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/InventoryActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_inventory.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_code.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Utils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Data.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_code.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/InventoryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_inventory.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/ShopActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/CodeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/InventoryActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Data.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-35" />
-    <option name="y" value="-9" />
+    <option name="x" value="-49" />
+    <option name="y" value="-21" />
     <option name="width" value="1696" />
     <option name="height" value="1011" />
   </component>
@@ -181,14 +233,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="mobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="mobile" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="mobile" type="1abcf292:AndroidViewProjectNode" />
@@ -223,6 +278,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,12 +399,12 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Debug" order="0" />
       <window_info anchor="bottom" id="Run" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32932165" />
       <window_info anchor="bottom" id="Logcat" order="3" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32932165" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -362,111 +419,84 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Storage.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_inventory.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_code.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="android-dummy://C:/Users/Uzytkownik/Desktop/pisanka-clicker-master/mobile/app/Translations Editor">
       <provider selected="true" editor-type-id="string-resource-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_code.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/209376b217dbe57f0c958e28d387d0c1/jars/classes.jar!/android/support/v7/app/AppCompatActivity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        <state relative-caret-position="265">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/InventoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_inventory.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Utils.java">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/ShopActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/CodeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="48" column="50" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#1544#1748#0" expanded="true" />
-            <element signature="e#1747#1748#0" expanded="true" />
-          </folding>
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="369">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
@@ -475,12 +505,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/InventoryActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/ShopActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="406">
+          <caret line="70" column="61" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#992#1491#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1556#1747#0" expanded="true" />
+            <element signature="e#1746#1747#0" expanded="true" />
+            <element signature="e#2235#2440#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2509#2670#0" expanded="true" />
+            <element signature="e#2669#2670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#1040#1230#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1285#1484#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/chlebek/rpisanka/activities/CodeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1019#2607#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
           </folding>
         </state>
       </provider>

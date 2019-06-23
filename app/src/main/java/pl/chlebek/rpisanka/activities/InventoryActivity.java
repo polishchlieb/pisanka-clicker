@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -52,14 +53,22 @@ public class InventoryActivity extends AppCompatActivity {
         // Add contents
         for(String item : inventory) {
             ImageView iv = new ImageView(this);
-//            if(item.equals("chest1"))
-            iv.setImageResource(R.drawable.chest1);
+            if(item.equals("chest1"))
+                iv.setImageResource(R.drawable.chest1);
+                LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(320, 230);
+                iv.setLayoutParams(params);
+
+//            ViewGroup.LayoutParams layoutParams = iv.getLayoutParams();
+//            layoutParams.width = 100;
+//            layoutParams.height = 100;
+
+//            iv.setLayoutParams(layoutParams);
 
             ll.addView(iv);
 
-            TextView tv = new TextView(this);
-            tv.setText(item);
-            ll.addView(tv);
+//            TextView tv = new TextView(this);
+//            tv.setText(item);
+//            ll.addView(tv);
         }
 
         // Add the LinearLayout element to the ScrollView

@@ -4,19 +4,56 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
+    android:orientation="horizontal"
     android:paddingTop="10dp"
     android:paddingBottom="10dp">
 
-    <ImageView
-        android:id="@+id/image_chest1"
-        android:layout_width="160dp"
-        android:layout_height="116dp"
-        app:srcCompat="@drawable/chest1" />
-
-    <Button
-        android:id="@+id/buy_chest1"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="kup see" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_chest1"
+                android:layout_width="137dp"
+                android:layout_height="115dp"
+                app:srcCompat="@drawable/chest1" />
+
+            <Button
+                android:id="@+id/buy_chest1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="skrzyneczka" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_multiplier"
+                android:layout_width="137dp"
+                android:layout_height="115dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/increase_multiplier" />
+
+            <Button
+                android:id="@+id/buy_multiplier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+1 za klik" />
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
