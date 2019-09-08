@@ -1,5 +1,7 @@
-# pisanka-clicker
-this ~~useless~~ game is available only in polish language version, sorry ;(
+stupid polish game, everything (except the code) is written in polish glhf
 
-## najlepsza gra wszechczasów
-Powracamy jeszcze raz. Tym razem zrozumiałem, że Java nie jest taka zła (Android Studio nadal jest i zawsze będzie)
+# Pisanka Clicker
+wracamy jeszcze raz, który to juz bedzie? ( ͡° ͜ʖ ͡°)
+
+## TODO
+- otwieranie skrzyneczek

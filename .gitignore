@@ -1,2 +1,2 @@
-/app/build/*
-/app/release/*
+/app/build/
+/app/release/
